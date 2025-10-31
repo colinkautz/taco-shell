@@ -3,7 +3,7 @@
     "start": "deno run -P main.ts"
   },
   "imports": {
-    "@inquirer/prompts": "npm:@inquirer/prompts@^7.8.6",
+    "@inquirer/prompts": "npm:@inquirer/prompts@^7.9.0",
     "zipcodes": "npm:zipcodes@^8.0.0"
   },
   "permissions": {
