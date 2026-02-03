@@ -1,39 +1,26 @@
-# Deno dependencies and cache
-.deno/
-deno.lock
-
-# Environment variables
-.env
-.env.local
-.env.*.local
-
-# IDE and Editor files
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# Logs
-*.log
-logs/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Operating System files
-Thumbs.db
-.DS_Store
-
-# Temporary files
-*.tmp
-.temp/
-tmp/
-
-# Node modules (if using npm compatibility)
-node_modules/
-
-# Compiled binaries
+# Binaries for programs and plugins
 *.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Code coverage profiles and other test artifacts
 *.out
-*.app
+coverage.*
+*.coverprofile
+profile.cov
+
+# Go workspace file
+go.work
+go.work.sum
+
+# env file
+.env
+
+# Editor/IDE
+.idea/
+.vscode/
